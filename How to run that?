@@ -1,0 +1,3 @@
+cd "the directory where you saved the file"
+pnpm install
+pnpm dev

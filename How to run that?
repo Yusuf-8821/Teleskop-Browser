@@ -1,3 +1,4 @@
-cd "the directory where you saved the file"
-pnpm install
-pnpm dev
+mkdir teleskop-browser
+cd teleskop-browser
+npm init -y
+npm install electron --save-dev

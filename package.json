@@ -1,20 +1,12 @@
 {
   "name": "teleskop-browser",
-  "version": "0.1.0",
-  "private": true,
-  "description": "Teleskop Tarayıcı — ultra gizlilik odaklı native tarayıcı",
-  "license": "Apache-2.0",
-  "engines": {
-    "node": ">=20"
-  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
   "scripts": {
-    "postinstall": "node scripts/postinstall.mjs",
-    "build": "pnpm -r run build",
-    "dev": "pnpm --filter @teleskop/desktop dev",
-    "typecheck": "pnpm -r run typecheck",
-    "kesif:web": "pnpm --filter @teleskop/kesif-web dev"
+    "start": "electron ."
   },
   "devDependencies": {
-    "typescript": "^5.8.3"
+    "electron": "^30.0.0" 
   }
 }
